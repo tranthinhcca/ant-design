@@ -2,7 +2,7 @@ import React from 'react';
 import { AntDesignOutlined, UserOutlined } from '@ant-design/icons';
 import { Avatar, Divider, Tooltip } from 'antd';
 
-const App: React.FC = () => (
+const App: React.FC = (T) => (
   <>
     <Avatar.Group>
       <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=1" />
